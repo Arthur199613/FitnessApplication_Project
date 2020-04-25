@@ -9,6 +9,8 @@ public class UserFoodLog {
 
     private int userId;
     private int foodId;
+    private Date dateOfConsumed;
+    private double caloriesConsumed;
 
     public Date getDateOfConsumed() {
         return dateOfConsumed;
@@ -26,6 +28,7 @@ public class UserFoodLog {
         this.caloriesConsumed = caloriesConsumed;
     }
 
-    Date dateOfConsumed;
-    double caloriesConsumed;
+
+
+
 }
